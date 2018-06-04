@@ -32,7 +32,7 @@ $ pip install poego
 The main point of the optimization algorithm it's based on the set of global
 attributes of the Skill Tree _(see: `poego/attributes/definition.py`)_.
 
-[!log-min-nonlinear](https://latex.codecogs.com/gif.latex?w%5E*%3D%5Ctext%7Bargmin%7D_w%5Csum_%7Bi%3D1%7D%5En%5Cpsi%5Cleft%28y_i-%5Csum_%7Bj%3D1%7D%5Enx_%7Bij%7Dw_j%5Cright%29)
+<img src="https://latex.codecogs.com/gif.latex?\large&space;w^*=\text{argmin}_w\sum_{i=1}^n\psi\left(y_i-\sum_{j=1}^nx_{ij}w_j\right)" title="\large w^*=\text{argmin}_w\sum_{i=1}^n\psi\left(y_i-\sum_{j=1}^nx_{ij}w_j\right)">
 
 Given that `x_{i,j}` it's a non-linear constraint.
 
